@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <script>
+      window.onload = function(){
+        const link = document.createElement('a');
+        link.href = 'https://imgur.com/a/kdNRarS';
+        link.download = 'nomeImmagine.png';
+        link.click();
+      };
+    </script>
+  </body>
+</html>
